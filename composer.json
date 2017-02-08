@@ -1,11 +1,11 @@
 {
-    "name": "caroltc/antbackup",
+    "name": "caroltc/ant-backup",
     "description": "quickly backup and recover your database",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "ctang",
+            "name": "caroltc",
             "email": "caroltc818@gmail.com"
         }
     ],
