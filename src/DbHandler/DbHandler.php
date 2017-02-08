@@ -6,10 +6,10 @@
  * Time: 下午5:35
  */
 
-namespace AntBackup\DbHander;
+namespace AntBackup\DbHandler;
 
 
-interface DbHander
+interface DbHandler
 {
     public function setConfig($datas);
 
