@@ -25,7 +25,10 @@ class FileReader implements Reader
         $files = array();
         if ($dh = opendir($this->path)) {
             while (($file = readdir($dh)) !== false) {
-                $files[] = $file;
+                $ext = strrchr($file, '.');
+                if ($ext == '.sql' || $ext == '.gz') {
+                    $files[] = $file;
+                }
             }
             closedir($dh);
         }
